@@ -10,7 +10,6 @@ banner = '''
 ###################################
 #         BLACK HAT LTD.          #
 #   Vladislav Kotov (DOCTOR_RABB) #
-#           Anton Carev           #
 ###################################
 
 '''
