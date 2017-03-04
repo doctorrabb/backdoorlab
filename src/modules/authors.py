@@ -9,7 +9,7 @@ banner = '''
 
 ###################################
 #         BLACK HAT LTD.          #
-#   Vladislav Kotov (DOCTOR_RABB) #
+#        (DOCTOR_RABB)            #
 ###################################
 
 '''
